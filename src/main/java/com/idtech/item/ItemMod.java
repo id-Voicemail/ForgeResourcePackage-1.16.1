@@ -23,7 +23,6 @@ public class ItemMod {
 
         //BASIC ITEMS
         event.getRegistry().register(STRUCTURE_GEL);
-
         // ITEMS
 
         // TOOLS
@@ -32,5 +31,8 @@ public class ItemMod {
 
         // ARMOR
 
+        //ARROWS
+        event.getRegistry().register(LightningArrowItem.INSTANCE);
+        event.getRegistry().register(BombArrowItem.INSTANCE);
     }
 }
